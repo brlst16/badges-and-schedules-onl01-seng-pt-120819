@@ -13,11 +13,11 @@ def assign_rooms(speakers)
   end
 end
 
-def assign_rooms(speakers)
-    speakers.collect.with_index(1) do |speaker, index|
-    puts "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
-  end
-end
+# def assign_rooms(speakers)
+#     speakers.collect.with_index(1) do |speaker, index|
+#     puts "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
+#   end
+# end
 
 
 def printer(speakers)
